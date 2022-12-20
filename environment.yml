@@ -1,4 +1,4 @@
-name: cls_notebooks
+name: edu-nb
 channels:
   - defaults
 dependencies:

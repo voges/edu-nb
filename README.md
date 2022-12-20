@@ -1,6 +1,6 @@
-# CLS notebooks
+# Educational notebooks
 
-This is a collection of educational [jupyter notebooks](https://jupyter.org) for the CLS (computational life sciences) course series.
+This is a collection of educational [jupyter notebooks](https://jupyter.org).
 
 ## Packages and environments
 
@@ -14,7 +14,7 @@ conda env create --file environment.yml
 
 Activate the new environment:
 ```
-conda activate cls_notebooks
+conda activate edu-nb
 ```
 
 Verify that the new environment was installed correctly:
