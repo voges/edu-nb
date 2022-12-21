@@ -1,5 +1,6 @@
 """Tests for the entropy module."""
 
+
 import unittest
 import entropy
 

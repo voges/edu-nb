@@ -1,5 +1,6 @@
 """Code to compute the entropy of arbitrary data."""
 
+
 import collections
 import math
 
