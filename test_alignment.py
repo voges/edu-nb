@@ -22,26 +22,19 @@ class AlignTestCase(unittest.TestCase):
         self.assertEqual(seq_b_aln, ["C", "A", "-", "T", "A", "C", "C", "C", "A"])
         self.assertEqual(warp_path_a, [0, 1, 2, 3, 4, 4, 4, 5, 6])
         self.assertEqual(warp_path_b, [0, 1, 1, 2, 3, 4, 5, 6, 7])
+        # fmt: off
         scoring_mat_gt = np.array(
             [
                 [-1, -2, -3, -4, -5, -6, -7, -8],
                 [-2, 0, -1, -2, -3, -4, -5, -6],
                 [-3, -1, 1, 0, -1, -2, -3, -4],
-                [
-                    -4,
-                    -2,
-                    0,
-                    0,
-                    -1,
-                    -2,
-                    -3,
-                    -4,
-                ],
+                [-4, -2, 0, 0, -1, -2, -3, -4],
                 [-5, -3, -1, 1, 0, -1, -2, -2],
                 [-4, -4, -2, 0, 2, 1, 0, -1],
                 [-5, -3, -3, -1, 1, 1, 0, 1],
             ]
         )
+        # fmt: on
         self.assertEqual(scoring_mat.all(), scoring_mat_gt.all())
 
     def test_int_list_input(self):
