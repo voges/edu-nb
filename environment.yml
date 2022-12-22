@@ -1,5 +1,6 @@
 name: edu-nb
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - appnope=0.1.2
@@ -10,7 +11,7 @@ dependencies:
   - blas=1.0
   - brotli=1.0.9
   - brotli-bin=1.0.9
-  - ca-certificates=2022.10.11
+  - ca-certificates=2022.12.7
   - certifi=2022.12.7
   - cffi=1.15.1
   - cfgv=3.3.1
@@ -29,6 +30,7 @@ dependencies:
   - freetype=2.12.1
   - giflib=5.2.1
   - identify=2.5.5
+  - importlib-metadata=5.2.0
   - intel-openmp=2021.4.0
   - ipykernel=6.15.2
   - ipython=8.7.0
@@ -63,6 +65,7 @@ dependencies:
   - mkl_random=1.2.2
   - munkres=1.1.4
   - mypy_extensions=0.4.3
+  - nbqa=1.5.3
   - ncurses=6.3
   - nest-asyncio=1.5.5
   - nodeenv=1.7.0
@@ -99,6 +102,7 @@ dependencies:
   - sqlite=3.40.0
   - stack_data=0.2.0
   - tk=8.6.12
+  - tokenize-rt=5.0.0
   - toml=0.10.2
   - tomli=2.0.1
   - tomlkit=0.11.1
@@ -115,5 +119,6 @@ dependencies:
   - xz=5.2.8
   - yaml=0.2.5
   - zeromq=4.3.4
+  - zipp=3.11.0
   - zlib=1.2.13
   - zstd=1.5.2
